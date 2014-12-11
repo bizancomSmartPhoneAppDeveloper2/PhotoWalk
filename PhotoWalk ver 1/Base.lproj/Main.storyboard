@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0IH-BY-Ebu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0IH-BY-Ebu">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -66,7 +66,7 @@
                                     <action selector="tagadd:" destination="5vH-Q6-fKz" eventType="touchUpInside" id="XyX-UA-Sgc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F86-5e-JFZ">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F86-5e-JFZ">
                                 <rect key="frame" x="16" y="85" width="568" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="FRy-9k-99B"/>
@@ -143,13 +143,13 @@
                                     <action selector="button_TokusimaJyou_Action:" destination="MXw-Qa-Bdu" eventType="touchUpInside" id="35u-yJ-zEV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNv-bK-mkB">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNv-bK-mkB">
                                 <rect key="frame" x="16" y="66" width="568" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-fo-ice">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-fo-ice">
                                 <rect key="frame" x="15" y="95" width="568" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -322,19 +322,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6B-js-WIC">
-                                <rect key="frame" x="97" y="513" width="30" height="30"/>
-                                <state key="normal" title="今日">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="today:" destination="G9W-2b-ijA" eventType="touchUpInside" id="1Ch-oo-nng"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-GN-2y8">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="505"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1c7-GN-2y8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s19-kC-w39">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s19-kC-w39">
                                 <rect key="frame" x="193" y="242" width="215" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="215" id="LTx-vH-YyO"/>
@@ -345,7 +336,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs8-Nr-eUr">
-                                <rect key="frame" x="474" y="513" width="30" height="30"/>
+                                <rect key="frame" x="520" y="513" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BnO-Az-PQq"/>
+                                    <constraint firstAttribute="width" constant="30" id="Xkh-iU-upu"/>
+                                </constraints>
                                 <state key="normal" title="タグ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -353,19 +348,35 @@
                                     <action selector="tag:" destination="G9W-2b-ijA" eventType="touchUpInside" id="LwA-YW-i0V"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6B-js-WIC">
+                                <rect key="frame" x="49" y="513" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="048-Sb-1v5"/>
+                                    <constraint firstAttribute="height" constant="30" id="GSU-ae-WQn"/>
+                                </constraints>
+                                <state key="normal" title="今日">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="today:" destination="G9W-2b-ijA" eventType="touchUpInside" id="1Ch-oo-nng"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EeV-BI-eXy" firstAttribute="top" secondItem="gs8-Nr-eUr" secondAttribute="bottom" constant="8" id="77j-BR-6tK"/>
-                            <constraint firstItem="gs8-Nr-eUr" firstAttribute="top" secondItem="1c7-GN-2y8" secondAttribute="bottom" constant="8" id="AVG-lA-hzu"/>
+                            <constraint firstItem="1c7-GN-2y8" firstAttribute="top" secondItem="nhq-TR-ZLa" secondAttribute="topMargin" id="AFM-3V-oRf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1c7-GN-2y8" secondAttribute="trailing" constant="-16" id="AOo-6P-Zn4"/>
                             <constraint firstItem="s19-kC-w39" firstAttribute="centerY" secondItem="1c7-GN-2y8" secondAttribute="centerY" id="DZL-Y4-S8V"/>
                             <constraint firstItem="1c7-GN-2y8" firstAttribute="leading" secondItem="nhq-TR-ZLa" secondAttribute="leading" id="KCL-FJ-11s"/>
-                            <constraint firstItem="Z6B-js-WIC" firstAttribute="leading" secondItem="nhq-TR-ZLa" secondAttribute="leading" constant="97" id="Ly3-FX-2j0"/>
+                            <constraint firstItem="Z6B-js-WIC" firstAttribute="leading" secondItem="nhq-TR-ZLa" secondAttribute="leading" constant="49" id="Ly3-FX-2j0"/>
                             <constraint firstAttribute="trailing" secondItem="1c7-GN-2y8" secondAttribute="trailing" id="M1k-U6-OEx"/>
                             <constraint firstItem="s19-kC-w39" firstAttribute="centerX" secondItem="1c7-GN-2y8" secondAttribute="centerX" id="SG3-ZP-uqQ"/>
+                            <constraint firstItem="1c7-GN-2y8" firstAttribute="leading" secondItem="nhq-TR-ZLa" secondAttribute="leadingMargin" constant="-16" id="X0s-Ua-hH0"/>
                             <constraint firstItem="EeV-BI-eXy" firstAttribute="top" secondItem="Z6B-js-WIC" secondAttribute="bottom" constant="8" id="g5I-O1-hV1"/>
                             <constraint firstItem="1c7-GN-2y8" firstAttribute="top" secondItem="nhq-TR-ZLa" secondAttribute="top" id="tRs-NF-PB1"/>
-                            <constraint firstAttribute="trailing" secondItem="gs8-Nr-eUr" secondAttribute="trailing" constant="96" id="ySG-BB-fHR"/>
+                            <constraint firstItem="EeV-BI-eXy" firstAttribute="top" secondItem="1c7-GN-2y8" secondAttribute="bottom" id="tvn-ES-SBd"/>
+                            <constraint firstAttribute="trailing" secondItem="gs8-Nr-eUr" secondAttribute="trailing" constant="50" id="ySG-BB-fHR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Slideshow" image="Slideshow" id="971-wE-KTF"/>
