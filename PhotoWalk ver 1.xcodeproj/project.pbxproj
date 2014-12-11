@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		985E15671A01CBDB00CD5A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E15661A01CBDB00CD5A25 /* main.m */; };
 		985E156A1A01CBDB00CD5A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E15691A01CBDB00CD5A25 /* AppDelegate.m */; };
-		985E156D1A01CBDC00CD5A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E156C1A01CBDB00CD5A25 /* ViewController.m */; };
 		985E15721A01CBDC00CD5A25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985E15711A01CBDC00CD5A25 /* Images.xcassets */; };
 		985E15751A01CBDC00CD5A25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 985E15731A01CBDC00CD5A25 /* LaunchScreen.xib */; };
 		985E15811A01CBDC00CD5A25 /* PhotoWalk_ver_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E15801A01CBDC00CD5A25 /* PhotoWalk_ver_1Tests.m */; };
@@ -59,8 +58,6 @@
 		985E15661A01CBDB00CD5A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		985E15681A01CBDB00CD5A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		985E15691A01CBDB00CD5A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		985E156B1A01CBDB00CD5A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		985E156C1A01CBDB00CD5A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		985E15711A01CBDC00CD5A25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		985E15741A01CBDC00CD5A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		985E157A1A01CBDC00CD5A25 /* PhotoWalk ver 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoWalk ver 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,8 +152,6 @@
 				985E15A51A01CC5600CD5A25 /* Tokushima */,
 				985E15911A01CC5600CD5A25 /* Camera */,
 				985E15A21A01CC5600CD5A25 /* Slideshow */,
-				985E156B1A01CBDB00CD5A25 /* ViewController.h */,
-				985E156C1A01CBDB00CD5A25 /* ViewController.m */,
 				985E15711A01CBDC00CD5A25 /* Images.xcassets */,
 				985E15941A01CC5600CD5A25 /* Images */,
 				985E15641A01CBDB00CD5A25 /* Supporting Files */,
@@ -240,8 +235,8 @@
 		985E15A51A01CC5600CD5A25 /* Tokushima */ = {
 			isa = PBXGroup;
 			children = (
-				985E15A61A01CC5600CD5A25 /* CellViewCell.h */,
-				985E15A71A01CC5600CD5A25 /* CellViewCell.m */,
+				985E15B81A01CC5600CD5A25 /* MapViewController.h */,
+				985E15B91A01CC5600CD5A25 /* MapViewController.m */,
 				985E15A81A01CC5600CD5A25 /* CustomAnnotation.h */,
 				985E15A91A01CC5600CD5A25 /* CustomAnnotation.m */,
 				985E15AA1A01CC5600CD5A25 /* CustomAnnotation_GPS.h */,
@@ -258,12 +253,12 @@
 				985E15B51A01CC5600CD5A25 /* HataView.m */,
 				985E15B61A01CC5600CD5A25 /* HataViewController.h */,
 				985E15B71A01CC5600CD5A25 /* HataViewController.m */,
-				985E15B81A01CC5600CD5A25 /* MapViewController.h */,
-				985E15B91A01CC5600CD5A25 /* MapViewController.m */,
-				985E15BA1A01CC5600CD5A25 /* PhotoViewCell.h */,
-				985E15BB1A01CC5600CD5A25 /* PhotoViewCell.m */,
+				985E15A61A01CC5600CD5A25 /* CellViewCell.h */,
+				985E15A71A01CC5600CD5A25 /* CellViewCell.m */,
 				985E15BC1A01CC5600CD5A25 /* TextViewCell.h */,
 				985E15BD1A01CC5600CD5A25 /* TextViewCell.m */,
+				985E15BA1A01CC5600CD5A25 /* PhotoViewCell.h */,
+				985E15BB1A01CC5600CD5A25 /* PhotoViewCell.m */,
 			);
 			path = Tokushima;
 			sourceTree = "<group>";
@@ -383,7 +378,6 @@
 			files = (
 				985E15DB1A01CC5600CD5A25 /* TextViewCell.m in Sources */,
 				985E15D21A01CC5600CD5A25 /* CustomAnnotation_GPS.m in Sources */,
-				985E156D1A01CBDC00CD5A25 /* ViewController.m in Sources */,
 				985E15CF1A01CC5600CD5A25 /* SlideshowViewController.m in Sources */,
 				985E15D51A01CC5600CD5A25 /* CustomAnnotation_HataOk.m in Sources */,
 				985E15C11A01CC5600CD5A25 /* CameraViewController.m in Sources */,
