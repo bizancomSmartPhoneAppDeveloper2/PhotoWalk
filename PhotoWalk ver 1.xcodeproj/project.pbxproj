@@ -49,6 +49,7 @@
 		98FFAB631A39FC7E0080ED87 /* Tokushima_30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FFAB571A39FC7E0080ED87 /* Tokushima_30x30.png */; };
 		98FFAB641A39FC7E0080ED87 /* Tokushima_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FFAB581A39FC7E0080ED87 /* Tokushima_60x60.png */; };
 		98FFAB651A39FC7E0080ED87 /* Tokushima_90x90.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FFAB591A39FC7E0080ED87 /* Tokushima_90x90.png */; };
+		98FFAB671A3A840F0080ED87 /* maru-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FFAB661A3A840F0080ED87 /* maru-01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		98FFAB571A39FC7E0080ED87 /* Tokushima_30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokushima_30x30.png; sourceTree = "<group>"; };
 		98FFAB581A39FC7E0080ED87 /* Tokushima_60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokushima_60x60.png; sourceTree = "<group>"; };
 		98FFAB591A39FC7E0080ED87 /* Tokushima_90x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokushima_90x90.png; sourceTree = "<group>"; };
+		98FFAB661A3A840F0080ED87 /* maru-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maru-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 		985E15941A01CC5600CD5A25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				98FFAB661A3A840F0080ED87 /* maru-01.png */,
 				98FFAB4E1A39FC7E0080ED87 /* Camera_30x30.png */,
 				98FFAB4F1A39FC7E0080ED87 /* Camera_60x60.png */,
 				98FFAB501A39FC7E0080ED87 /* Camera_90x90.png */,
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				985E15C71A01CC5600CD5A25 /* movie42.png in Resources */,
+				98FFAB671A3A840F0080ED87 /* maru-01.png in Resources */,
 				98FFAB601A39FC7E0080ED87 /* Slideshow_30x30.png in Resources */,
 				98FFAB5F1A39FC7E0080ED87 /* Setting_90x90.png in Resources */,
 				985E15C41A01CC5600CD5A25 /* little25_2.png in Resources */,
@@ -556,6 +560,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,6 +572,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
